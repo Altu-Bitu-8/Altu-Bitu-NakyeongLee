@@ -27,7 +27,7 @@ void getComplexResult(int w, int i0, int i, int t, int d, int a) {
 			return;
 		}
 		if (abs(diff) > t) {
-			i1 += floor(diff / 2);
+			i1 += floor(diff / 2.0);
 		}
 		if (i1 <= 0) {
 			cout << "Danger Diet";
